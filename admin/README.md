@@ -8,5 +8,10 @@ Steps -
 
 
 
+- Created cloudAMPQ account by linking it with github and email - rohithch16@gmail.com, TeamName = personalLemur
+[https://customer.cloudamqp.com/instance]
+
+
 # Current status - Data published from Django app but Data not getting persisted in amin app - flask server db. 
 # Triggering python consumer.py manaually its working as expected
+# [Optional]Finally try porting the entire docker setup to another system.

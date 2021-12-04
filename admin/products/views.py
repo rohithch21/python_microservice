@@ -15,6 +15,7 @@ class ProductViewSet(viewsets.ViewSet):
     def list(self,request):     # /api/products
         products = Product.objects.all()
         serializer = ProductSerializer(products, many=True)
+        publish("product_list", "{'a':'1'}")
         return Response(serializer.data)
 
 
@@ -54,6 +55,4 @@ class UserAPIView(APIView):
         return Response({
             'id' : user.id
         })
-
-
 
