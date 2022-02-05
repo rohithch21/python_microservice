@@ -4,7 +4,7 @@ import pika
 import json
 import main
 
-params = pika.URLParameters("amqps://soxcuwue:DJSrY-NBP1T1ik7GZk1PZE4wxP5TXGSi@puffin.rmq2.cloudamqp.com/soxcuwue")
+params = pika.URLParameters("amqps://ywifnmau:Olc-tMjfC-mZXiNQCBeHA56Jv2u5xdsZ@puffin.rmq2.cloudamqp.com/ywifnmau")
 connection = pika.BlockingConnection(params)
 channel = connection.channel()
 
